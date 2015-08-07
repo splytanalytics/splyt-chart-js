@@ -2,14 +2,14 @@
 <html>
     <head>
         <title>SPLYT - Graph API Sample</title>
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/Splyt.all.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/Splyt.all.js"></script>
     </head>
     <body>
         <h1>SPLYT - Graph API Example</h1>
         <div id="chart" style="width: 1920px; height: 1080px;"></div>
         <script>
-            (function(window, document, $, Splyt) {
+            (function($) {
                 Splyt.init({
                     //"host": "https://data.splyt.com",
                     //"vishost": "https://dashboard.splyt.com",
@@ -24,7 +24,7 @@
                     1438819200,     // Epoch time end (chart range)
                     {}              // Ignore
                 );
-            })(window, window.document, jQuery, Splyt);
+            })(jQuery);
         </script>
     </body>
 </html>

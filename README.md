@@ -1,8 +1,7 @@
-The SPLYT SDK for Javascript w/ Charting
+The SPLYT Charting SDK for Javascript
 ============================
 
-Welcome! This SDK allows you to integrate websites and web-based applications with SPLYT, which provides analytics and insights about your app.
-In addition, SPLYT empowers you with the ability to take actions that will improve your users' engagement.
+Welcome! This SDK allows you to integrate Splyt visualizations into your web application.
 
 Note that this SDK currently assumes that your Javascript code will be running in a browser.
 
@@ -27,14 +26,10 @@ Charts
 
 ***
 
-Sample Applications
+Example Applications
 -------------------
 
-This SDK includes a sample app called BubblePop, a simple [shell game](http://en.wikipedia.org/wiki/Shell_game) that
-demonstrates basic integration of data collection, tuning, and testing.  It also shows how to report purchases to SPLYT.
-
-To run the sample, open `example/index.html` in your web browser.  The sample has been tested to work
-properly in recent versions of Chrome, Firefox, and Safari.
+To run the example, open `example/index.html` in your web browser.
 
 ***
 

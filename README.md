@@ -24,6 +24,18 @@ Charts
 		});
 	</pre>
 
+3. Use the Splyt_Chart functions to render charts into a <div> you specify.
+
+    <pre>
+        Splyt_Charts.render(
+            "<em>[your div ID goes here]</em>",
+            "<em>[your KPI/visualization ID goes here]</em>",
+            <em>[epoch timestamp - begin range]</em>,
+            <em>[epoch timestamp - end range]</em>,
+            {<em>[Highcharts options]</em>}
+        );
+    </pre>
+
 ***
 
 Example Applications

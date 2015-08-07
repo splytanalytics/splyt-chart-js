@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SPLYT - Graph API Sample</title>
+        <script src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/Splyt.all.js"></script>
+    </head>
+    <body>
+        <h1>SPLYT - Graph API Sample</h1>
+        <div id="chart" style="width: 1920px; height: 1080px;"></div>
+        <script>
+            (function(window, document, $, Splyt) {
+                Splyt.init({
+                    //"host": "http://splyt-frontend.local",
+                    //"vishost": "http://splyt-frontend.local",
+                    "customerId": "gunstruction-gunstruction-prod",
+                    "apikey": "BdF5Nh-8jTl6q-zEblNM-sMLStd-XIGJpM"
+                });
+
+                Splyt_Charts.render("chart", "DEVICE_D1", 1437696000, 1438819200, {});
+
+                // $.ajax({
+                //     "type": "POST",
+                //     "url": "http://splyt-frontend.local/isos-tools/ws/interface/xvault?ssf_ws_version=-1&ssf_cust_id=splyt-bubblepop-test&ssf_output=json&ssf_sdk=js&ssf_sdk_version=4.0.6&ssf_api_key=WF83jy-mZv1c0-uSJx3F-elrB3w-Z5XAWI",
+                //     "data": JSON.stringify(["DEVICE_D1", 1437782400, 1438905600]),
+                //     "beforeSend": function(xhr) {
+                //         xhr.setRequestHeader('ssf-contents-not-url-encoded', 'true');
+                //         xhr.setRequestHeader('ssf-use-positional-post-params', 'true');
+                //     }
+                // }).done(function(result) {
+                //     console.log(result);
+                // });
+            })(window, window.document, jQuery, Splyt);
+        </script>
+    </body>
+</html>
